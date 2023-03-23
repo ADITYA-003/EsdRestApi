@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+}
+.content{
+    border: 1px solid whitesmoke;
+    display: flex;
+    gap: 2rem;
+
+    justify-content: center;
+    align-items: center;
+
+}
+a{
+    text-decoration: none;
+    color: none;
+}
+.btn{
+    border: 1px solid turquoise;
+    width: 100px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+   
+    font-size: 12px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: turquoise;
+    color: rgb(104, 25, 25);
+    font-weight: bold;
+}

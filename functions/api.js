@@ -2,7 +2,7 @@ const express = require("express");
 const movie = require("./movie");
 const port = 2023;
 const { ObjectId } = require("mongodb");
-
+const cors = require('cors')
 const serverless = require("serverless-http");
 
 const app = express();
